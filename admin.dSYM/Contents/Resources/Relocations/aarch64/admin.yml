@@ -1,0 +1,25 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     admin
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _display_menu, symObjAddr: 0x0, symBinAddr: 0x100001DC4, symSize: 0x88 }
+  - { offsetInCU: 0x86, offset: 0x86, size: 0x8, addend: 0x0, symName: _display_menu, symObjAddr: 0x0, symBinAddr: 0x100001DC4, symSize: 0x88 }
+  - { offsetInCU: 0x9B, offset: 0x9B, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x88, symBinAddr: 0x100001E4C, symSize: 0x3E4 }
+  - { offsetInCU: 0x26, offset: 0x256, size: 0x8, addend: 0x0, symName: _create_admin_tree, symObjAddr: 0x0, symBinAddr: 0x100002250, symSize: 0x10C }
+  - { offsetInCU: 0x16E, offset: 0x39E, size: 0x8, addend: 0x0, symName: _create_admin_tree, symObjAddr: 0x0, symBinAddr: 0x100002250, symSize: 0x10C }
+  - { offsetInCU: 0x196, offset: 0x3C6, size: 0x8, addend: 0x0, symName: _create_node, symObjAddr: 0x10C, symBinAddr: 0x10000235C, symSize: 0xE8 }
+  - { offsetInCU: 0x204, offset: 0x434, size: 0x8, addend: 0x0, symName: _init_sample_data, symObjAddr: 0x1F4, symBinAddr: 0x100002444, symSize: 0xA10 }
+  - { offsetInCU: 0x36D, offset: 0x59D, size: 0x8, addend: 0x0, symName: _add_child, symObjAddr: 0xC04, symBinAddr: 0x100002E54, symSize: 0x60 }
+  - { offsetInCU: 0x39F, offset: 0x5CF, size: 0x8, addend: 0x0, symName: _list_children, symObjAddr: 0xC64, symBinAddr: 0x100002EB4, symSize: 0x110 }
+  - { offsetInCU: 0x3FB, offset: 0x62B, size: 0x8, addend: 0x0, symName: _find_node_by_id, symObjAddr: 0xD74, symBinAddr: 0x100002FC4, symSize: 0xA4 }
+  - { offsetInCU: 0x451, offset: 0x681, size: 0x8, addend: 0x0, symName: _type_to_string, symObjAddr: 0xE18, symBinAddr: 0x100003068, symSize: 0xA8 }
+  - { offsetInCU: 0x47B, offset: 0x6AB, size: 0x8, addend: 0x0, symName: _count_descendants, symObjAddr: 0xED4, symBinAddr: 0x100003124, symSize: 0xA8 }
+  - { offsetInCU: 0x4CD, offset: 0x6FD, size: 0x8, addend: 0x0, symName: _find_parent, symObjAddr: 0xF7C, symBinAddr: 0x1000031CC, symSize: 0xE0 }
+  - { offsetInCU: 0x50D, offset: 0x73D, size: 0x8, addend: 0x0, symName: _path_to_root, symObjAddr: 0x105C, symBinAddr: 0x1000032AC, symSize: 0xD8 }
+  - { offsetInCU: 0x560, offset: 0x790, size: 0x8, addend: 0x0, symName: _list_by_level_helper, symObjAddr: 0x1134, symBinAddr: 0x100003384, symSize: 0xCC }
+  - { offsetInCU: 0x5B2, offset: 0x7E2, size: 0x8, addend: 0x0, symName: _list_by_level, symObjAddr: 0x1200, symBinAddr: 0x100003450, symSize: 0x4C }
+  - { offsetInCU: 0x5E7, offset: 0x817, size: 0x8, addend: 0x0, symName: _reparent_subtree, symObjAddr: 0x124C, symBinAddr: 0x10000349C, symSize: 0x1A8 }
+  - { offsetInCU: 0x6A0, offset: 0x8D0, size: 0x8, addend: 0x0, symName: _search_node, symObjAddr: 0x13F4, symBinAddr: 0x100003644, symSize: 0x158 }
+  - { offsetInCU: 0x701, offset: 0x931, size: 0x8, addend: 0x0, symName: _print_node, symObjAddr: 0x154C, symBinAddr: 0x10000379C, symSize: 0x78 }
+  - { offsetInCU: 0x727, offset: 0x957, size: 0x8, addend: 0x0, symName: _destroy_tree, symObjAddr: 0x15C4, symBinAddr: 0x100003814, symSize: 0x138 }
+...
